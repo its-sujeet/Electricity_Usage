@@ -1,0 +1,397 @@
+/* Style the nav container */
+.nav-container {
+  background-color: #333; /* Background color for the navigation section */
+  padding: 10px 0;
+  text-align: center; /* Center the links horizontally */
+}
+
+/* Style the nav links */
+.nav {
+  display:inline-block;
+  margin-right: 20px; /* Add spacing between links */
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff; /* Text color */
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #fff; /* Add a border */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  background-color: #fff; /* Change background color on hover */
+  color: #333; /* Change text color on hover */
+}
+
+
+
+
+
+
+
+p{
+    color:#117864;
+    background-color: #CACFD2 ;
+
+}
+
+/* ul{
+
+    color:#117864;
+    background-color:#CACFD2 E;
+} */
+
+/* body{background-color:#CACFD2 } */
+/* Set the background color for the entire page */
+body {
+  background-color: #f3f3f3; /* Replace with your desired background color */
+  margin: 0; /* Remove default margin to ensure full coverage of the background */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Set a default font for the page */
+}
+
+
+.nav{
+    display:inline-block;
+}
+
+#tips,#info{
+    color: #CB4335;
+}
+
+.nav a:hover{
+    color: red;
+
+}
+
+#energy_saving{
+    height:300px;
+    /* width: 50px; */
+}
+
+header{
+    background-color: #F0F0F0;
+    text-align: center;
+  }
+
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    opacity: 0; /* Start with text hidden */
+    animation: fadeIn 2s ease-in-out forwards; /* Animation properties */
+  }
+  .survey-section{
+    opacity: 0; /* Start with text hidden */
+    animation: fadeIn 2s ease-in-out forwards; /* Animation properties */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start with 0 opacity */
+    }
+    100% {
+      opacity: 1; /* Fully visible at the end of the animation */
+    }
+  }
+/* Style the benefits section container */
+.benefits-section {
+    background-image: url('Montage of images showing the benefits of energy conservation 1.jpg');
+    background-size:contain;
+    background-repeat: repeat;
+    background-position: center top;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+
+   .benefits-section {
+    /* background-image: url('Montage of images showing the benefits of energy conservation.jpg'); */
+    /* background-size:auto; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-color:#2ecc71; */
+    color: #ffffff;
+    /* color: rgba(0, 0, 0, 0.6); */
+    padding: 50px;
+    text-align: center;
+    margin-left: 7px;
+  
+    /* animation: change-background 4s ease-in-out infinite; */
+    /* animation-delay: 2s; */
+  }
+  
+  /* @keyframes change-background {
+    0% {
+      background-image: url('Montage of images showing the benefits of energy conservation.jpg');
+    }
+    25% {
+      background-image: url("Montage of images showing the benefits of energy conservation 2.jpg");
+    }
+    50% {
+      background-image: url("Montage of images showing the benefits of energy conservation 2.jpg");
+    }
+    75% {
+      background-image: url("Montage of images showing the benefits of energy conservation 1.jpg");
+    }
+    100% {
+      background-image: url("Montage of images showing the benefits of energy conservation.jpg");
+    }
+  }
+   */
+
+
+  /* Style the benefits content */
+  .benefits-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style the heading */
+  .benefits-content h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+  
+  /* Style the benefits list */
+  .benefits-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-content li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+  }
+  
+  Style the image container
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  /* Style the image */
+  #energy_saving {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+    
+ /* Style the at-home section container */
+.at-home-section {
+    background-color: #f3f3f3;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Style the heading */
+  .at-home-section h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  
+  /* Style the tips list */
+  .tips-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tips-list li {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tips-list img {
+    width: 200px;;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .tips-list p {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .at-work-section {
+    background-color: #f3f3f3;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Style the heading */
+  .at-work-section h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  /* Style the subscribe container */
+.subscribe-container {
+  background-color: #f3f3f3; /* Background color */
+  padding: 20px;
+  text-align:left;
+}
+
+/* Style the heading */
+.subscribe-container h2 {
+  font-size: 24px;
+  color: #333; /* Text color */
+}
+
+/* Style the subscribe form */
+.subscribe-form {
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.subscribe-form:hover{
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+/* Style the label and input */
+.subscribe-form label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.subscribe-form input[type="email"] {
+  width: 100%;
+  max-width: 300px; /* Limit the input width */
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the submit button */
+.subscribe-form input[type="submit"] {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-form input[type="submit"]:hover {
+  background-color: #555; /* Change button background color on hover */
+}
+
+/* Style the blog section */
+.blog-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-section h1{
+  text-decoration:solid;
+}
+
+
+/* Style individual blog items */
+.blog-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-item:hover {
+  transform: scale(1.02);
+}
+
+.blog-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.blog-item h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.blog-item p {
+  font-size: 18px;
+  margin: 10px 0;
+  color:#757575;
+}
+
+.blog-item a {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: #0078d4; /* Link color */
+}
+
+.blog-item a:hover {
+  text-decoration: underline;
+}
+
+/* Style hover effect for blog items */
+.blog-item:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.survey-section {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.survey-section span{
+  background-color: #a5a5a5;
+}
+
+.survey-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.survey-link:hover {
+  background-color: #555;
+}

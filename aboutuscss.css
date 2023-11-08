@@ -1,0 +1,93 @@
+body{
+  background-image: url('Montage of images showing the benefits of energy conservation.jpg'), repeat url("Montage of images showing the benefits of energy conservation 1.jpg");
+  background-size:cover;
+  background-repeat: repeat;
+  background-position: center top;
+  color:#fff;
+  padding: 50px;
+  text-align: center;
+  animation: change-background 4s ease-in-out infinite; 
+  animation-delay: 2s;
+}
+
+@keyframes change-background {
+  0% {
+    background-image: url('Montage of images showing the benefits of energy conservation.jpg');
+  }
+  25% {
+    background-image: url("Montage of images showing the benefits of energy conservation 2.jpg");
+  }
+  50% {
+    background-image: url("Montage of images showing the benefits of energy conservation 2.jpg");
+  }
+  75% {
+    background-image: url("Montage of images showing the benefits of energy conservation 1.jpg");
+  }
+  100% {
+    background-image: url("Montage of images showing the benefits of energy conservation.jpg");
+  }
+}
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the entire page */
+  body {
+    /* background-color: #f3f3f3; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  main p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  main ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  
+  
+  /* Add hover effect for links */
+  a {
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
