@@ -82,12 +82,19 @@ header{
     position: relative;
     display: inline-block;
     margin-left: 10px;
+    /* height:500vh;
+    width: 500vw; */
+  }
+  .image-container img{
+    /* height: 50vh; */
+    width: 150vh;
+    margin-left: 10em;
   }
   
   .text-overlay {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 56%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.7);
     color: white;
